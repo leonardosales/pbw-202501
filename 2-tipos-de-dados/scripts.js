@@ -44,3 +44,10 @@ console.log(`typeof undefined = ${typeof undefined}`)
 console.log(`typeof null = ${typeof null}`)
 console.log(`undefined = ${undefined}`)
 console.log(`null = ${null}`)
+
+// Conversao de tipos automatica
+
+console.log(`5 * null = ${5 * null}`);
+console.log(`"5" - 3 = ${"5" - 3}`);
+console.log(`"5" + 1 = ${"5" + 1}`);
+console.log(`"dois" * "tres" = ${"dois" * "tres"}`);
