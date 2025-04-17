@@ -37,3 +37,10 @@ console.log(`!false = ${!false}`);
 console.log(`!true && false || !false && true = ${!true && false || !false && true}`);
 console.log(`true ? 1 : 2 = ${true ? 1 : 2}`)
 console.log(`false ? 1 : 2 = ${false ? 1 : 2}`)
+
+// Empty Values
+
+console.log(`typeof undefined = ${typeof undefined}`)
+console.log(`typeof null = ${typeof null}`)
+console.log(`undefined = ${undefined}`)
+console.log(`null = ${null}`)
