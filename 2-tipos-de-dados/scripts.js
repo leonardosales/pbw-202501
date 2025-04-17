@@ -19,3 +19,21 @@ console.log("Essa é uma string com 'aspas simples'");
 console.log('Essa é uma string com "aspas duplas"');
 console.log(`A soma de 2 + 2 é ${2+2}`);
 console.log("Salada" + ' de ' + `frutas`);
+
+// Boolean
+console.log(typeof (3 > 5));
+console.log(typeof (5 > 3));
+console.log(3 > 5);
+console.log(5 > 3);
+console.log(2 == 2);
+console.log(2 === 2);
+console.log(`2 == "2" = ${2 == "2"}`);
+console.log(`2 === "2" = ${2 === "2"}`);
+console.log(`true && true = ${true && true}`);
+console.log(`true && false = ${true && false}`);
+console.log(`false || false = ${false || false}`);
+console.log(`!true = ${!true}`);
+console.log(`!false = ${!false}`);
+console.log(`!true && false || !false && true = ${!true && false || !false && true}`);
+console.log(`true ? 1 : 2 = ${true ? 1 : 2}`)
+console.log(`false ? 1 : 2 = ${false ? 1 : 2}`)
