@@ -18,3 +18,17 @@ escreverNoCosole();
 
 textoNoConsole("Escrevendo texto passado por parametro");
 enviarParaConsole("Escrevendo outro texto passado por parametro")
+
+// Funcoes com retorno
+const soma = function(a, b) {
+    return a + b;
+}
+console.log(soma(2,3));
+
+const saudacao = function(nome) {
+    if (nome === "Matheus") {
+        return "Olá, Matheus";
+    }
+    return "Oi, " + nome;
+}
+console.log(saudacao("Mateus"));
