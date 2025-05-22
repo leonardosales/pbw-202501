@@ -65,3 +65,43 @@ const multiplicar = function(n) {
 }
 multiplicar(y);
 console.log(y);
+
+// Arrow Functions
+
+const parOuImpar = (n) => {
+    return n % 2;
+};
+
+console.log(parOuImpar(4));
+
+const quadradoNumero = (n) => {
+    return n * n;
+};
+
+const quadradoNumero2 = n => n * n;
+
+console.log(quadradoNumero(2));
+console.log(quadradoNumero2(10));
+
+const nomeComIdade = function(nome, idade) {
+    if (nome == undefined) {
+        nome = "Anonimo";
+    }
+    if (idade === undefined) {
+        console.log("Seu nome é " + nome);
+    } else {
+        console.log("Seu nome é " + nome + " e voce tem " + idade + " anos");
+    }
+}
+nomeComIdade();
+nomeComIdade("Leonardo");
+nomeComIdade("Leonardo", 40);
+
+function repetirTexto(texto, n = 2) {
+    for(let i = 0; i < n; i++) {
+        console.log(texto + " " + i);
+    }
+}
+
+repetirTexto("Testando", 5);
+repetirTexto("Só duas vezes");
