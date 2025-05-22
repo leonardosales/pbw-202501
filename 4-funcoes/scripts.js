@@ -32,3 +32,36 @@ const saudacao = function(nome) {
     return "Oi, " + nome;
 }
 console.log(saudacao("Mateus"));
+
+// Escopo de funcoes
+
+let n = 10;
+const numero = function() {
+    let n = 5;
+    console.log(n);
+    n++;
+}
+numero();
+console.log(n);
+
+let x = 10;
+
+if (true) {
+    let x = 20;
+    console.log(x);
+}
+console.log(x);
+
+// Escopos aninhados
+
+let y = 5;
+
+const multiplicar = function(n) {
+    let y = n * 2;
+    console.log(y);
+    if (y === 10) {
+        console.log(y);
+    }
+}
+multiplicar(y);
+console.log(y);
