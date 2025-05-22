@@ -117,3 +117,16 @@ const soma2 = armazenarSoma(10);
 
 console.log(soma1(10));
 console.log(soma2(5));
+
+// Recursao
+
+const retornarNumeroPar = (n) => {
+    if (n % 2 == 0) {
+        console.log("Agora o numero é par: " + n);
+    } else {
+        console.log("O numero nao é par: " + n);
+        retornarNumeroPar(n + 1);
+    }
+}
+
+retornarNumeroPar(33);
