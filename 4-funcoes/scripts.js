@@ -105,3 +105,15 @@ function repetirTexto(texto, n = 2) {
 
 repetirTexto("Testando", 5);
 repetirTexto("Só duas vezes");
+
+// Closures
+
+function armazenarSoma(x) {
+    return y => x + y;
+}
+
+const soma1 = armazenarSoma(5);
+const soma2 = armazenarSoma(10);
+
+console.log(soma1(10));
+console.log(soma2(5));
